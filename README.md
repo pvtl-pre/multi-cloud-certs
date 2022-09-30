@@ -16,7 +16,7 @@ The primary goal of this project is to create the scaffolding for certbot to cre
 ## Prereqs
 
 - Install [certbot](https://certbot.eff.org/)
-  - Install Python3
+  - Install Python3 and Pip3
 - Have an account(s) to AWS, Azure, GCP
 - Register a domain with a domain registrar
 
@@ -193,7 +193,7 @@ Take note of the `NameServers` for use in your domain registrar.
 
 ### Delegate a Subdomain
 
-In your domain registrar, you will need to create NS records corresponding to the AWS NameServers created in the hosted zone delegating the subdomain to them.
+In your domain registrar, you will need to create NS records corresponding to the Azure NameServers created in the hosted zone delegating the subdomain to them.
 
 | ![registrar sample config](./images/registrar-sample-config-azure.png) |
 |:--:|
@@ -290,7 +290,7 @@ Take note of the `nameServers` for use in your domain registrar.
 
 ### Delegate a Subdomain
 
-In your domain registrar, you will need to create NS records corresponding to the AWS NameServers created in the hosted zone delegating the subdomain to them.
+In your domain registrar, you will need to create NS records corresponding to the GCP NameServers created in the hosted zone delegating the subdomain to them.
 
 | ![registrar sample config](./images/registrar-sample-config-gcp.png) |
 |:--:|
