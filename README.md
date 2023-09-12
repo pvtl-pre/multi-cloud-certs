@@ -156,7 +156,6 @@ Take note of the `AccessKeyId` and `SecretAccessKey` and set environment variabl
 
 Create your certificate. Parameters required:
 
-* $INI_FILE_PATH
 * $DOMAIN - domain used in your hosted zone
 
 ```shell
